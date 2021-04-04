@@ -97,7 +97,7 @@ class Books extends Component {
         {books.length > 0 ? (
           <BookList books={books} saveBook={book => this.saveBook(book)} />
         ) : (
-          <p className='no-data'>No Books Found</p>
+          <p className='show-results'>No results found</p>
         )}
       </div>
     );

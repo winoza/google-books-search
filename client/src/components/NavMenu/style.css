@@ -1,10 +1,11 @@
 .header {
-  background-color: #e64514;
+  background-color: #17525b;
   position: fixed;
   top: 0;
   right: 0;
   left: 0;
   z-index: 1001;
+  height: 45px;
 }
 
 .nav-item {
